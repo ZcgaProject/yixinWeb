@@ -1,0 +1,361 @@
+.yixinHomePageBox{
+    width: 100%;
+    /*height: 100vh;*/
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.yixinHome_one{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #de4141;
+}
+.yixinHomeone_left{
+    width: 12%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: red;*/
+    flex-direction: column;
+}
+.yixinHomeone_sou{
+    width: 64%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
+.yixinHome_two{
+    width: 100%;
+    height: 3.4rem;
+    /*background-color: aqua;*/
+}
+.yixinHome_thr{
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
+.yixinHome_thrBox{
+    width: 96%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-bottom: 1px solid #999999;
+    /*background-color: #de4141;*/
+}
+.thrBox_left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /*background-color: #de4141;*/
+}
+.thrBox_right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+.leftFont_one{
+    width: 90%;
+    height: 0.66rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    /*background-color: white;*/
+}
+.leftFont_one span{
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+.leftFont_two{
+    width: 90%;
+    height: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    /*background-color: #999999;*/
+}
+.leftFont_two span{
+    font-size: 0.22rem;
+    font-weight: bold;
+    color: #333333;
+}
+.yixinHome_fou{
+    width: 96%;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+}
+.yixinHome_fouimg{
+    width: 20%;
+    height: 1.2rem;
+    /*background-color: #999999;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.yixinHome_fouimg span{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.28rem;
+    font-weight: 600;
+}
+.yixinHome_fouimg img{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.yixinHome_fiv{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: #f1f1f1;
+}
+.yixinHome_six{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yixinHome_sixbox{
+    width: 96%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: red;*/
+    border-bottom: 1px solid #999999;
+}
+.yixinHome_sev{
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
+.yixinHome_eig{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #f1f1f1;*/
+}
+.yixinHome_eigBox{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    box-shadow:0px 0px 7px rgba(0,0,0,0.5);
+}
+.yixinHome_eigBox span{
+    font-size: 0.28rem;
+    color:#da4444;
+    font-weight: bold;
+    margin-left: 0.2rem;
+}
+.yixinHome_nin{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+.yixinHome_ninleft{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: #de4141;*/
+}
+.yixinHome_ninright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: aqua;*/
+    position: relative;
+    left: 0px;
+}
+.ninlefttop{
+    width: 90%;
+    height: 70%;
+    /*background-color: #f1f1f1;*/
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.ninleftbottom{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+.ninrightTop{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.36rem;
+    font-weight: 500;
+    /*background-color: #999999;*/
+}
+.anniu{
+    width: 28%;
+    height: 22%;
+    position: absolute;
+    bottom: 4px;
+    right: -4px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #e98e7d;
+    background-color: #ece6c2;
+}
+.yixinHome_ten{
+    width: 100%;
+    height: 3.8rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.yixinHome_tenbox{
+    width: 100%;
+    height: 3.6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+.tenboxNav{
+    width: 94%;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+.tenboxNav span{
+    font-size: 0.32rem;
+    font-weight: 400;
+    color: #000000;
+}
+.yixinHome_ele{
+    width: 90%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.yixinHome_ele span{
+    color: #ff0000;
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+.footerSheet{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: #cc3333;*/
+}
+.footerSheet_img{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /*background-color: floralwhite;*/
+
+}
+.footerSheet_imgbox{
+    width: 35%;
+    height: 56%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: red;*/
+}
+.footerSheet_font{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 0.24rem;
+}
+.footerSheet_kong{
+    width: 100%;
+    height: 10%;
+}
+.footerTabertwo{
+    width: 100%;
+    height: 1rem;
+    background-color: #E6E6E6;
+}
+.footerTaber{
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: #E6E6E6;
+}
+
